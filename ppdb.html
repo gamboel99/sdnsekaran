@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>PPDB Online - SDN Sekaran</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body onload="simpanForm('ppdbForm','ppdbData')">
+  <header><h1>PPDB Online</h1></header>
+  <main>
+    <h2>Formulir Pendaftaran</h2>
+    <form id="ppdbForm">
+      <label>Nama Lengkap:<br><input type="text" name="nama" required></label><br>
+      <label>Jenis Kelamin:<br><select name="gender"><option>Laki-laki</option><option>Perempuan</option></select></label><br>
+      <label>Agama:<br><input type="text" name="agama" required></label><br>
+      <label>Alamat:<br><textarea name="alamat" required></textarea></label><br>
+      <label>Asal Sekolah TK:<br><input type="text" name="asal_tk"></label><br>
+      <button type="submit">Daftar</button>
+    </form>
+  </main>
+  <footer>
+    <p>© 2025 SDN Sekaran | Developed by CV Mitra Utama Consultindo (MUC)</p>
+  </footer>
+</body>
+</html>
