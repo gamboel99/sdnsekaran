@@ -1,11 +1,7 @@
 <!doctype html>
 <html lang="id">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>SDN Sekaran — Beranda</title>
-  <link rel="stylesheet" href="style.css">
-</head>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SDN Sekaran — Beranda</title>
+<link rel="stylesheet" href="assets/css/main.css"></head>
 <body>
 <header class="header">
   <div class="container inner">
@@ -16,56 +12,41 @@
         <div class="badge">Sekolah Ramah Anak & Berkarakter</div>
       </div>
     </div>
-
-    <!-- Hamburger Button -->
-    <div class="menu-toggle">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-
-    <!-- Navigasi -->
     <nav class="nav" role="navigation" aria-label="Main menu">
       <ul>
         <li><a href="index.html">Beranda</a></li>
-
         <li><a href="tentang.html">Tentang Kami</a>
-          <ul class="dropdown">
-            <li><a href="tentang.html#profil">Profil Sekolah</a></li>
-            <li><a href="tentang.html#visi">Visi & Misi</a></li>
-            <li><a href="tentang.html#struktur">Struktur Organisasi</a></li>
-          </ul>
+          <div class="dropdown">
+            <a href="tentang.html#profil">Profil Sekolah</a>
+            <a href="tentang.html#visi">Visi & Misi</a>
+            <a href="tentang.html#struktur">Struktur Organisasi</a>
+          </div>
         </li>
-
         <li><a href="akademik.html">Akademik</a>
-          <ul class="dropdown">
-            <li><a href="akademik.html#program">Program Unggulan</a></li>
-            <li><a href="akademik.html#kurikulum">Kurikulum</a></li>
-            <li><a href="akademik.html#jadwal">Jadwal Pelajaran</a></li>
-          </ul>
+          <div class="dropdown">
+            <a href="akademik.html#program">Program Unggulan</a>
+            <a href="akademik.html#kurikulum">Kurikulum</a>
+            <a href="akademik.html#jadwal">Jadwal Pelajaran</a>
+          </div>
         </li>
-
         <li><a href="esekolah.html">E-Sekolah</a>
-          <ul class="dropdown">
-            <li><a href="esekolah.html#eraport">E-Raport</a></li>
-            <li><a href="esekolah.html#equiz">E-Quis</a></li>
-            <li><a href="esekolah.html#library">Digital Library</a></li>
-            <li><a href="esekolah.html#emanajemen">E-Manajemen</a></li>
-          </ul>
+          <div class="dropdown">
+            <a href="esekolah.html#eraport">E-Raport</a>
+            <a href="esekolah.html#equiz">E-Quis</a>
+            <a href="esekolah.html#library">Digital Library</a>
+            <a href="esekolah.html#emanajemen">E-Manajemen</a>
+          </div>
         </li>
-
         <li><a href="ekstra.html">Ekstrakurikuler</a></li>
         <li><a href="galeri.html">Galeri</a></li>
         <li><a href="prestasi.html">Prestasi</a></li>
-
         <li><a href="layanan.html">Layanan</a>
-          <ul class="dropdown">
-            <li><a href="ppdb.html">PPDB Online</a></li>
-            <li><a href="layanan.html#warta">Warta/Artikel</a></li>
-            <li><a href="layanan.html#agenda">Agenda Sekolah</a></li>
-          </ul>
+          <div class="dropdown">
+            <a href="ppdb.html">PPDB Online</a>
+            <a href="layanan.html#warta">Warta/Artikel</a>
+            <a href="layanan.html#agenda">Agenda Sekolah</a>
+          </div>
         </li>
-
         <li><a href="kontak.html">Kontak</a></li>
       </ul>
     </nav>
@@ -78,16 +59,27 @@
       <div style="flex:1">
         <h2>Selamat Datang di SDN Sekaran</h2>
         <p class="note">Sekolah inklusif, berprestasi, dan berwawasan lingkungan.</p>
-        <div style="margin-top:.8rem">
-          <a class="badge" href="ppdb.html">PPDB Online</a> 
-          <a class="btn" href="esekolah.html">Masuk E-Sekolah</a>
-        </div>
+        <div style="margin-top:.8rem"><a class="badge" href="ppdb.html">PPDB Online</a> <a class="btn" href="esekolah.html">Masuk E-Sekolah</a></div>
       </div>
       <div style="width:260px"><img src="assets/img/logo.svg" alt="logo" style="width:100%"></div>
     </div>
   </section>
-</main>
 
+  <section style="margin-top:1rem" class="grid cols-3">
+    <div class="card">
+      <h3>Perpustakaan Digital</h3>
+      <p class="note">Akses bahan bacaan belajar.</p><a href="esekolah.html#library">Buka</a>
+    </div>
+    <div class="card">
+      <h3>Ekstrakurikuler</h3>
+      <p class="note">Kegiatan nonakademik yang mendukung pengembangan bakat.</p><a href="ekstra.html">Detail</a>
+    </div>
+    <div class="card">
+      <h3>Berita & Pengumuman</h3>
+      <p class="note">Info terbaru kegiatan sekolah.</p><a href="layanan.html#warta">Baca</a>
+    </div>
+  </section>
+</main>
 <footer class="footer" role="contentinfo">
   <div class="container inner">
     <div style="max-width:360px">
@@ -99,7 +91,7 @@
     </div>
     <div style="max-width:280px">
       <h3>Media Sosial</h3>
-      <div><a href="#">Instagram</a> | <a href="#">Facebook</a> | <a href="#">TikTok</a></div>
+      <div><a href="#" target="_blank">Instagram</a> | <a href="#" target="_blank">Facebook</a> | <a href="#" target="_blank">TikTok</a></div>
       <h3 style="margin-top:8px">Pintasan Cepat</h3>
       <div class="menu-quick">
         <a href="index.html">Beranda</a>
@@ -117,14 +109,7 @@
     </div>
   </div>
 </footer>
+<script>document.getElementById('yearJS').textContent = new Date().getFullYear();</script>
 
-<script>
-  document.getElementById('yearJS').textContent = new Date().getFullYear();
-  const toggle = document.querySelector(".menu-toggle");
-  const navMenu = document.querySelector(".nav ul");
-  toggle.addEventListener("click", () => {
-    navMenu.classList.toggle("active");
-  });
-</script>
-</body>
-</html>
+<script src="assets/js/main.js" defer></script>
+</body></html>
