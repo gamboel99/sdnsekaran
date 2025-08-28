@@ -105,3 +105,59 @@ a { text-decoration:none; }
   }
   .nav ul li ul li a { padding-left:1.5rem; }
 }
+
+/* ====== Responsive Mobile ====== */
+@media (max-width: 768px) {
+  /* Header & Navbar */
+  .header .inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+  }
+
+  .nav ul li {
+    width: 100%;
+  }
+
+  .nav ul li a {
+    display: block;
+    padding: 10px;
+    width: 100%;
+  }
+
+  /* Hero Section */
+  .hero > div {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero img {
+    max-width: 180px;
+    margin: 1rem auto;
+  }
+
+  /* Button agar tidak bertumpuk */
+  .hero .badge,
+  .hero .btn {
+    display: inline-block;
+    margin: 0.3rem;
+  }
+
+  /* Grid jadi 1 kolom */
+  .grid.cols-3 {
+    grid-template-columns: 1fr;
+  }
+
+  /* Footer */
+  .footer .inner {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+}
+
