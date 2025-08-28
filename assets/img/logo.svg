@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 192 192" role="img" aria-labelledby="logoTitle">
+  <title id="logoTitle">Logo SDN Sekaran</title>
+  <defs><linearGradient id="g" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#0f5e2b"/><stop offset="1" stop-color="#00695c"/></linearGradient></defs>
+  <path d="M96 12L164 40V100C164 143 131 173 96 180C61 173 28 143 28 100V40L96 12Z" fill="url(#g)" stroke="#05351f" stroke-width="3"/>
+  <rect x="52" y="78" width="88" height="36" rx="4" fill="#fff"/>
+  <path d="M62 82H134" stroke="#1b7f3b" stroke-width="3"/>
+  <circle cx="96" cy="56" r="12" fill="#fff" stroke="#05351f" stroke-width="3"/>
+  <text x="96" y="154" font-size="12" text-anchor="middle" fill="#fff" font-family="Poppins, sans-serif">SDN SEKARAN</text>
+</svg>

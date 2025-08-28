@@ -1,66 +1,115 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SDN Sekaran</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
-</head>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SDN Sekaran — Beranda</title>
+<link rel="stylesheet" href="assets/css/main.css"></head>
 <body>
-  <header>
-    <h1>SDN Sekaran</h1>
-    <nav>
+<header class="header">
+  <div class="container inner">
+    <div class="brand">
+      <img src="assets/img/logo.svg" alt="Logo SDN Sekaran">
+      <div>
+        <h1 class="school-name">SDN Sekaran</h1>
+        <div class="badge">Sekolah Ramah Anak & Berkarakter</div>
+      </div>
+    </div>
+    <nav class="nav" role="navigation" aria-label="Main menu">
       <ul>
         <li><a href="index.html">Beranda</a></li>
-        <li><a href="tentang.html">Tentang Kami</a></li>
-        <li><a href="program.html">Program Sekolah</a></li>
-        <li><a href="perpustakaan.html">Perpustakaan Digital</a></li>
-        <li><a href="banksoal.html">Bank Soal</a></li>
-        <li><a href="eraport.html">E-Raport</a></li>
-        <li><a href="equiz.html">E-Quiz</a></li>
-        <li><a href="ppdb.html">PPDB Online</a></li>
-        <li><a href="pengaduan.html">Pengaduan</a></li>
-        <li><a href="berita.html">Berita & Galeri</a></li>
+        <li><a href="tentang.html">Tentang Kami</a>
+          <div class="dropdown">
+            <a href="tentang.html#profil">Profil Sekolah</a>
+            <a href="tentang.html#visi">Visi & Misi</a>
+            <a href="tentang.html#struktur">Struktur Organisasi</a>
+          </div>
+        </li>
+        <li><a href="akademik.html">Akademik</a>
+          <div class="dropdown">
+            <a href="akademik.html#program">Program Unggulan</a>
+            <a href="akademik.html#kurikulum">Kurikulum</a>
+            <a href="akademik.html#jadwal">Jadwal Pelajaran</a>
+          </div>
+        </li>
+        <li><a href="esekolah.html">E-Sekolah</a>
+          <div class="dropdown">
+            <a href="esekolah.html#eraport">E-Raport</a>
+            <a href="esekolah.html#equiz">E-Quis</a>
+            <a href="esekolah.html#library">Digital Library</a>
+            <a href="esekolah.html#emanajemen">E-Manajemen</a>
+          </div>
+        </li>
+        <li><a href="ekstra.html">Ekstrakurikuler</a></li>
+        <li><a href="galeri.html">Galeri</a></li>
+        <li><a href="prestasi.html">Prestasi</a></li>
+        <li><a href="layanan.html">Layanan</a>
+          <div class="dropdown">
+            <a href="ppdb.html">PPDB Online</a>
+            <a href="layanan.html#warta">Warta/Artikel</a>
+            <a href="layanan.html#agenda">Agenda Sekolah</a>
+          </div>
+        </li>
         <li><a href="kontak.html">Kontak</a></li>
       </ul>
     </nav>
-  </header>
+  </div>
+</header>
 
-  <main>
-    <section>
-      <h2>Selamat Datang di Website Resmi SDN Sekaran</h2>
-      <p>Sekolah ramah anak, berprestasi, dan menjunjung tinggi nilai pluralisme.</p>
-    </section>
-  </main>
+<main class="main container">
+  <section class="hero card">
+    <div style="display:flex;gap:1rem;align-items:center">
+      <div style="flex:1">
+        <h2>Selamat Datang di SDN Sekaran</h2>
+        <p class="note">Sekolah inklusif, berprestasi, dan berwawasan lingkungan.</p>
+        <div style="margin-top:.8rem"><a class="badge" href="ppdb.html">PPDB Online</a> <a class="btn" href="esekolah.html">Masuk E-Sekolah</a></div>
+      </div>
+      <div style="width:260px"><img src="assets/img/logo.svg" alt="logo" style="width:100%"></div>
+    </div>
+  </section>
 
-  <footer>
-    <div class="footer-content">
-      <div class="footer-section">
-        <h3>Kontak</h3>
-        <p>SDN Sekaran</p>
-        <p>Alamat: Desa Sekaran, Kec. Kayen Kidul, Kab. Kediri</p>
-        <p>Email: sdnsekaran@email.com</p>
-        <p>Telp: (0354) 123456</p>
-      </div>
-      <div class="footer-section">
-        <h3>Media Sosial</h3>
-        <p><a href="#">Instagram</a> | <a href="#">Facebook</a> | <a href="#">TikTok</a></p>
-      </div>
-      <div class="footer-section">
-        <h3>Pintasan Cepat</h3>
-        <ul>
-          <li><a href="index.html">Beranda</a></li>
-          <li><a href="ppdb.html">PPDB Online</a></li>
-          <li><a href="perpustakaan.html">Perpustakaan</a></li>
-          <li><a href="pengaduan.html">Pengaduan</a></li>
-          <li><a href="kontak.html">Kontak</a></li>
-        </ul>
+  <section style="margin-top:1rem" class="grid cols-3">
+    <div class="card">
+      <h3>Perpustakaan Digital</h3>
+      <p class="note">Akses bahan bacaan belajar.</p><a href="esekolah.html#library">Buka</a>
+    </div>
+    <div class="card">
+      <h3>Ekstrakurikuler</h3>
+      <p class="note">Kegiatan nonakademik yang mendukung pengembangan bakat.</p><a href="ekstra.html">Detail</a>
+    </div>
+    <div class="card">
+      <h3>Berita & Pengumuman</h3>
+      <p class="note">Info terbaru kegiatan sekolah.</p><a href="layanan.html#warta">Baca</a>
+    </div>
+  </section>
+</main>
+<footer class="footer" role="contentinfo">
+  <div class="container inner">
+    <div style="max-width:360px">
+      <h3>Kontak</h3>
+      <div>SDN Sekaran</div>
+      <div class="school-address">Desa Sekaran, Kec. Kayen Kidul, Kab. Kediri</div>
+      <div>Email: <a href="mailto:sdnsekaran@example.sch.id" class="school-email">sdnsekaran@example.sch.id</a></div>
+      <div>Telp: <span class="school-phone">(0354) 123456</span></div>
+    </div>
+    <div style="max-width:280px">
+      <h3>Media Sosial</h3>
+      <div><a href="#" target="_blank">Instagram</a> | <a href="#" target="_blank">Facebook</a> | <a href="#" target="_blank">TikTok</a></div>
+      <h3 style="margin-top:8px">Pintasan Cepat</h3>
+      <div class="menu-quick">
+        <a href="index.html">Beranda</a>
+        <a href="ppdb.html">PPDB Online</a>
+        <a href="esekolah.html#library">Digital Library</a>
+        <a href="pengaduan.html">Pengaduan</a>
+        <a href="kontak.html">Kontak</a>
       </div>
     </div>
-    <div class="footer-bottom">
-      <p>© 2025 SDN Sekaran | Developed by CV Mitra Utama Consultindo (MUC)</p>
+    <div style="flex:1; text-align:right; min-width:220px">
+      <h3>Informasi</h3>
+      <p class="small">Sekolah inklusif & plural. Menjunjung tinggi Bhinneka Tunggal Ika.</p>
+      <p class="small">© <span id="yearJS"></span> SDN Sekaran</p>
+      <p class="small">Developed by CV Mitra Utama Consultindo (MUC)</p>
     </div>
-  </footer>
-</body>
-</html>
+  </div>
+</footer>
+<script>document.getElementById('yearJS').textContent = new Date().getFullYear();</script>
+
+<script src="assets/js/main.js" defer></script>
+</body></html>

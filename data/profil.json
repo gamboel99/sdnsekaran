@@ -1,0 +1,13 @@
+{
+  "nama_sekolah": "SDN Sekaran",
+  "alamat": "Desa Sekaran, Kec. Kayen Kidul, Kab. Kediri",
+  "email": "sdnsekaran@example.sch.id",
+  "telepon": "(0354) 123456",
+  "kepala_sekolah": "Eko Diantoro",
+  "visi": "Terwujudnya peserta didik cerdas, berkarakter, dan peduli lingkungan.",
+  "misi": [
+    "Meningkatkan kualitas pembelajaran berorientasi kompetensi.",
+    "Menanamkan nilai-nilai Pancasila dan toleransi.",
+    "Mengembangkan budaya literasi dan lingkungan."
+  ]
+}
